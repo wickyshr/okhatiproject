@@ -1,0 +1,356 @@
+.userinterface {
+	background-color: #E9E9E9;
+	height: 675px;
+	width: 1335px;
+	margin-right: auto;
+	margin-left: auto;
+	position: absolute;
+	left: 6px;
+	top: 2px;
+}
+
+.header {
+	background-color: #4242424;
+	border: 1px solid #133e40;
+	border-radius: 5px;
+  	box-shadow: inset 0 0 50px #000000;
+	height: 115px;
+	width: 1335px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+}
+
+.content {
+	width: 1335px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.heading1 {
+	font-family: Bernard MT Condensed;
+	color: #FFF;
+	padding-left: 50px;
+	font-size: 60px;
+	font-style: normal;
+}
+	
+.menuposi {
+	float: none;
+	height: 50px;
+	width: 1335px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#menu ul,
+#menu li,
+#menu a {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 1;
+}
+#menu {
+  border: 1px solid #133e40;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 50px;
+  width: 1335px;
+  float: none;
+}
+#menu ul {
+  zoom: 1;
+  background: #65231b;
+  background: -moz-linear-gradient(top, #65231b 0%, #191a1a 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #36b0b6), color-stop(100%, #191a1a));
+  background: -webkit-linear-gradient(top, #65231b 0%, #191a1a 100%);
+  background: -o-linear-gradient(top, #65231b 0%, #191a1a 100%);
+  background: -ms-linear-gradient(top, #65231b 0%, #191a1a 100%);
+  background: linear-gradient(top, #365231b 0%, #191a1a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@top-color', endColorstr='@bottom-color', GradientType=0);
+  padding: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+#menu ul:before {
+  content: '';	
+  display: block;
+}
+#menu ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#menu li {
+  float: left;
+  margin: 0 57px 0 30px;
+  border: 1px solid transparent;
+}
+#menu li a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 8px 15px 9px 15px;
+  display: block;
+  text-decoration: none;
+  color: #FFF;
+  border: 1px solid transparent;
+  font-size: 20px;
+  font-family: "Palatino Linotype", "Book Antiqua";
+}
+#menu li.active {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  color: #CCC;
+  border: 1px solid #323434;
+}
+#menu li.active a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  border: 1px solid #000000;
+  -moz-box-shadow: inset 0 5px 10px #000000;
+  -webkit-box-shadow: inset 0 5px 10px #000000;
+  box-shadow: inset 0 5px 10px #000000;
+}
+#menu li:hover {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #323434;
+  font-family: "Palatino Linotype", "Book Antiqua";
+  font-size: 20px;
+}
+#menu li:hover a {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	display: block;
+	background: #000000;
+	border: 1px solid #000000;
+	-moz-box-shadow: inset 0 5px 10px #000000;
+	-webkit-box-shadow: inset 0 5px 10px #000000;
+	box-shadow: inset 0 5px 10px #000000;
+	font-family: "Palatino Linotype", "Book Antiqua";
+	
+}
+
+.content1 {
+	height: auto;
+	width: auto;
+	position: absolute;
+	left: 67px;
+	top: 246px;
+}
+
+.heading2 {
+	font-family: Bernard MT Condensed;
+	color: #42424;
+	padding-left: 30px;
+	font-size: 60px;
+	font-style: normal;
+}
+
+.content2 {
+	height: 277px;
+	width: 572px;
+	position: absolute;
+	left: 696px;
+	top: 258px;
+	text-align: justify;
+}
+
+.writing {
+	font-family: Tahoma;
+	color: #000;
+	font-size: 21px;
+	font-style: normal;
+}
+
+.content3 {
+	position: absolute;
+	left: 890px;
+	top: 286px;
+	width: 278px;
+	height: 41px;
+}
+
+.login {
+	font-family: Bodoni MT Condensed;
+	color: #000;
+	font-size: 35px;
+	font-style: normal;
+}
+
+.dot {
+	position:absolute;
+	font-family: Bodoni MT Condensed;
+	color: #000;
+	font-size: 35px;
+	font-style: normal;
+	left: -5px;
+	top: 17px;
+	width: 272px;
+}
+	
+	
+.loginsub {
+	position: absolute;
+	left: 3px;
+	top: 65px;
+}
+
+.hti1 {
+	position: absolute;
+	font-family: Tahoma;
+	color: #460000;
+	font-size: 25px;
+	font-style: normal;
+	left: 25px;
+	top: 210px;
+}
+
+.hti2 {
+	position: absolute;
+	font-family: Tahoma;
+	color: #484848;
+	font-size: 20px;
+	font-style: normal;
+	left: 30px;
+	top: 259px;
+	width: 1130px;
+	height: 47px;
+}
+
+.hti3 {
+	position: absolute;
+	font-family: Tahoma;
+	color: #000;
+	font-size: 20px;
+	font-style: normal;
+	left: 30px;
+	top: 293px;
+	width: 1282px;
+	text-align: justify;
+}
+
+.hti4 {
+	position: absolute;
+	font-family: Tahoma;
+	color: #000;
+	font-size: 20px;
+	font-style: normal;
+	left: 30px;
+	top: 301px;
+	width: 1282px;
+	text-align: justify;
+	height: 66px;
+}
+
+.hti5 {
+	position: absolute;
+	font-family: Tahoma;
+	color: #484848;
+	font-size: 20px;
+	font-style: normal;
+	left: 30px;
+	top: 409px;
+	width: 1074px;
+}
+
+.hti6 {
+	position: absolute;
+	font-family: Tahoma;
+	color: #000;
+	font-size: 20px;
+	font-style: normal;
+	left: 30px;
+	top: 441px;
+	width: 1282px;
+	text-align: justify;
+}
+
+.hti7 {
+	position: absolute;
+	font-family: Tahoma;
+	color: #484848;
+	font-size: 20px;
+	font-style: normal;
+	left: 30px;
+	top: 501px;
+	width: 1074px;
+}
+
+.hti8 {
+	position: absolute;
+	font-family: Tahoma;
+	color: #000;
+	font-size: 20px;
+	font-style: normal;
+	left: 30px;
+	top: 531px;
+	width: 1282px;
+	text-align: justify;
+	height: 65px;
+}
+
+.accountsettings {
+	padding-left: 25px;
+	font-family: Tahoma;
+	color: #000;
+	font-size: 15px;
+	font-style: normal;
+	text-align: left;
+}
+
+.search {
+	float: right;
+	margin-right: 25px;
+}
+
+.form {
+	padding-left: 25px;
+	font-family: Tahoma;
+	color: #000;
+	font-size: 18px;
+	font-style: normal;
+	text-align: left;
+	
+}
+
+.datatable {
+	width: 98%;
+	border-radius: 5px;
+}
+
+.datath {
+    background-color: #666;
+    color: white;
+	text-align: left;
+}
+
+.datatd {
+    text-align: left;
+	padding: 10px;
+}
